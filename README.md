@@ -1,16 +1,28 @@
-# React + Vite
+# pacote de dependencias para criar rotas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+ npm i react-router-dom
+```
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Estrutura do router
 
-## React Compiler
+# BrowserRouter /Router 
+prepara o navegador para receber as rotas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Routes
+prepara a estrutura para recebe a rota
 
-## Expanding the ESLint configuration
+# Route
+é a rota que vai ser chamada no navagador
+Ex: Home, Sobre, contato
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# pacote de dependencias para icones
+
+```
+ npm i lucide-react
+```
+
+## documentação
+
+https://lucide.dev/guide/react/
